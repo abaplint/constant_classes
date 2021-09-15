@@ -1,0 +1,29 @@
+{
+  "global": {
+    "files": "/src/**/*.*",
+    "exclude": [],
+    "skipGeneratedGatewayClasses": true,
+    "skipGeneratedPersistentClasses": true,
+    "skipGeneratedFunctionGroups": true,
+    "useApackDependencies": false,
+    "skipIncludesWithoutMain": false
+  },
+  "dependencies": [],
+  "syntax": {
+    "version": "v755",
+    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_)"
+  },
+  "rules": {
+    "constant_classes": {
+      "mapping": [
+        {
+          "domain": "greek_letters",
+          "class": "zcl_greek_letters",
+          "useExactType": true
+        }
+      ]
+    },
+    "xml_consistency": true,
+    "check_ddic": true
+  }
+}
